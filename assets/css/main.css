@@ -2825,9 +2825,9 @@ input, select, textarea {
 		.main.style2 {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed;
-			background-image: url("images/ldm_mirror.png");
-			background-size: cover;
+			background-attachment: fixed,							fixed,							fixed;
+			background-image: url("images/ldm_mirror.JPG");
+			background-position: top left,						center center,					center center;
 		}
 
 			.main.style2 a {
